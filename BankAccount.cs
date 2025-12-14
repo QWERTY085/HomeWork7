@@ -1,3 +1,13 @@
+using System;
+
+class Programm
+{
+    public static void Main()
+    {
+        Bank.GetInfo();
+    }
+}
+
 // Перечисление, описывающее тип банковского счёта
 enum BankAccount
 {
